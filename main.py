@@ -17,3 +17,12 @@ screen.onkeypress(snake.up, "Up")
 screen.onkeypress(snake.down,"Down")
 screen.onkeypress(snake.left,"Left")
 screen.onkeypress(snake.right,"Right")
+
+is_end = False
+while not is_end:
+    screen.update()
+    time.sleep(0.1)
+    snake.move()
+
+
+screen.exitonclick()
