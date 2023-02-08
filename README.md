@@ -2,9 +2,9 @@
 
 ## steps taken
 
-- Event listeners
+- Create snake's body
 
-- state 
+- Add eventlistners to control the snake's movements
 
 - multiple instances
 
