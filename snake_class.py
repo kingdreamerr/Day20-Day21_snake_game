@@ -20,10 +20,26 @@ class Snake:
             snake.goto(x=x, y=0)
             x -= 20
             self.snake_house.append(snake)
-            
+
     def move(self):
         for square in range(len(self.snake_house) - 1, 0, -1):
             new_x = self.snake_house[square - 1].xcor()
             new_y = self.snake_house[square - 1].ycor()
             self.snake_house[square].goto(new_x, new_y)
         self.head.fd(MOVE)
+
+    def up(self):
+        if self.head.heading() != DOWN:
+            self.head.seth(UP)
+
+    def left(self):
+        if self.head.heading() != RIGHT:
+            self.head.seth(LEFT)
+
+    def right(self):
+        if self.head.heading() != LEFT:
+            self.head.seth(RIGHT)
+
+    def down(self):
+        if self.head.heading() != UP:
+            self.head.seth(DOWN)
