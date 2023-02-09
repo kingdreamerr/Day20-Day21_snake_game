@@ -34,11 +34,11 @@
 
 - Clone this repository
 ```
-git clone https://github.com/kingdreamerr/Day20_snake_game.git
+git clone https://github.com/kingdreamerr/Day20-Day21_snake_game.git
 ```
 - cd into the repo
 ```
-cd Day20_snake_game
+cd Day20-Day21_snake_game
 ```
 
 - Paste the following in the terminal 
