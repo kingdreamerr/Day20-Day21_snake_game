@@ -1,4 +1,4 @@
-# Day20
+# Day20 -Day21
 
 ## Things learnt:
 - Splice method
@@ -27,9 +27,7 @@
 
 #### Preview:
 
-![shot 1](./shot1.png)
-![shot 2](./sjot2.png)
-![shot 3](./shot4.png)
+![snake](./snake.png)
 
 
 ## How to run this on your device
