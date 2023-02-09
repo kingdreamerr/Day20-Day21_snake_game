@@ -34,7 +34,7 @@ while not is_end:
         snake.extend()
         board.increase_score()
 
-    if snake.head.xcor() > 280 or snake.head.xcor() < -295 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+    if snake.head.xcor() > 295 or snake.head.xcor() < -295 or snake.head.ycor() > 295 or snake.head.ycor() < -295:
         is_end = True
         time.sleep(0)
         board.game_over()
