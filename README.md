@@ -1,14 +1,24 @@
 # Day20
 
+## Things learnt:
+- Splice method
+
+- Inheritance
+
 ## steps taken
 
 - Create snake's body
 
+- Move snake in any direction
+
 - Add eventlistners to control the snake's movements
 
-- multiple instances
+- Detect collision with food
 
-- high_order functions 
+- Detect collision with wall
+
+- Detect collision with tail
+
 
 ## Project to solidify material learned 
 
