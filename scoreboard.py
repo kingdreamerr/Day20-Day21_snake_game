@@ -9,7 +9,7 @@ class Board(Turtle):
     self.penup()
     self.goto(x=0,y=275)
     self.display()
-    
+
   def display(self):
     self.write(f"Score: {self.score}", False, align="center",font=('Arial', 15, 'normal'))
 
@@ -17,3 +17,8 @@ class Board(Turtle):
     self.clear()
     self.score +=1
     self.display()
+    
+  def game_over(self):
+    self.goto(x=0,y=0)
+    self.write("GAME OVER", False, align="center",font=('Arial', 15, 'normal'))
+
